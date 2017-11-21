@@ -1,0 +1,30 @@
+/* body, html{
+    width: 100%;
+    background-color: thistle;
+}
+body{
+    height: 100%;
+    align-content: center;
+} */
+#main{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    background-color: rgb(67, 173, 223);
+    height: 100%;
+    width: 100%;
+}
+#paragraph-col{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    background-color: rgb(132, 216, 202);
+    height: 100%;
+}
+#to-do-col{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: rgb(132, 216, 202);   
+    height: 100%;    
+}
+#list-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
